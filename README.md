@@ -19,10 +19,22 @@ I'm a serious person so I would like to introduce B first.
 1. download professional version Pycharm
 2. create a project which you wants to run on the remote server (e.g. Test)
 3. configure remote server's ip address
+
+Tools -> Deployment -> Configuration
 <img src='./img/1.png' width=600/>
+
+create a new SFTP configuration
 <img src='./img/2.png' width=400/>
+
+fill the relevant connection information
 <img src='./img/3.jpeg' width=600/>
+
+fill the mappings
+(the local path is the position where your project is on your localhost and the deployment path is the position you wanna upload your local project on the remote server). 
+Then click ok button
 <img src='./img/4.jpeg' width=600/>
+
+after the previous operations, the Pycharm console will show the process of uploading all the files to the remote server. Select Tools -> Deployment -> Browse Remote Host, then the pannel on the left part of Pycharm will show the directories and files under the root path you filled for connections configuration page.
 <img src='./img/5.png' width=600/>
 <img src='./img/7.png' width=800/>
 <img src='./img/8.png' width=600/>
