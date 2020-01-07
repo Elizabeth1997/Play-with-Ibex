@@ -44,6 +44,6 @@ select SSH interpreter
 <img src='./img/8.png' width=600/>
 
 fill the path obtained by executing command "which python"
-<img src='./img/9.png' width=600/>
+<img src='./img/9.jpge' width=600/>
 
 Now, you can create a file name 'test.py' under your project directory on Pycharm and try to run it!
