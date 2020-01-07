@@ -24,7 +24,7 @@ Tools -> Deployment -> Configuration
 <img src='./img/1.png' width=600/>
 
 create a new SFTP configuration
-<img src='./img/2.png' width=400/>
+<img src='./img/2.png' width=200/>
 
 fill the relevant connection information
 <img src='./img/3.jpeg' width=600/>
@@ -36,5 +36,11 @@ Then click ok button
 
 after the previous operations, the Pycharm console will show the process of uploading all the files to the remote server. Select Tools -> Deployment -> Browse Remote Host, then the pannel on the left part of Pycharm will show the directories and files under the root path you filled for connections configuration page.
 <img src='./img/5.png' width=600/>
+
+4. configure project interpreter
 <img src='./img/7.png' width=800/>
+
+select SSH interpreter 
 <img src='./img/8.png' width=600/>
+
+Now, you can create a file name 'test.py' under your project directory on Pycharm and try to run it!
