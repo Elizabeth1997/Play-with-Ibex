@@ -20,10 +20,9 @@ I'm a serious person so I would like to introduce B first.
 2. create a project which you wants to run on the remote server (e.g. Test)
 3. configure remote server's ip address
 <img src='./img/1.png' width=600/>
-<img src='./img/2.png' width=600/>
-<img src='./img/3.png' width=600/>
-<img src='./img/4.png' width=600/>
+<img src='./img/2.png' width=400/>
+<img src='./img/3.jpeg' width=600/>
+<img src='./img/4.jpeg' width=600/>
 <img src='./img/5.png' width=600/>
-<img src='./img/7.png' width=600/>
+<img src='./img/7.png' width=800/>
 <img src='./img/8.png' width=600/>
-<img src='./img/9.png' width=600/>
