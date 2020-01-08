@@ -31,6 +31,7 @@ fill the relevant connection information
 
 fill the mappings
 (the local path is the position where your project is on your localhost and the deployment path is the position you wanna upload your local project on the remote server). 
+<font color='red'>Pay attention! You only need to fill the rest of part of the whole complete path after exclude the root path you already filled in the previous step. For example, the root path I filled is '/home/xiongc/workspace' and the deployment path I should fill is '/project_name/' instead of '/home/xiongc/workspace/project_name/', otherwise you will have some troubles when the python file is running.</font>
 Then click ok button
 <img src='./img/4.jpeg' width=600/>
 
