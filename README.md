@@ -48,3 +48,5 @@ fill the path obtained by executing command "which python"
 <img src='./img/9.jpeg' width=600/>
 
 Now, you can create a file name 'test.py' under your project directory on Pycharm and try to run it!
+
+<span style="color:red;">If you want to change using another interpreter, please do the deploymemt configuration first and then set the SSH interpreter</span>
