@@ -27,3 +27,9 @@ pip install --verbose --no-cache-dir torch-cluster
 pip install --verbose --no-cache-dir torch-spline-conv (optional)
 pip install torch-geometric
 
+## good way to debug
+gdb python
+## under gdb mode
+r main.py
+## show stack trace
+where
