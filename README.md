@@ -50,3 +50,7 @@ fill the path obtained by executing command "which python"
 Now, you can create a file name 'test.py' under your project directory on Pycharm and try to run it!
 
 <span style="color:red;">If you want to change using another interpreter, please do the deploymemt configuration first and then set the SSH interpreter</span>
+
+One more thing!
+After configure the deployment settings, selec what you want from deployment configurations list! No need to set a new server configuration again! Pay attention! Otherwise it will occur permission deny issue during uploading the files from localhost to remote server.
+<img src='./img/10.png' width=600/>
