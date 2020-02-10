@@ -35,7 +35,10 @@ fill the mappings
 Then click ok button
 <img src='./img/4.jpeg' width=600/>
 
-after the previous operations, the Pycharm console will show the process of uploading all the files to the remote server. Select Tools -> Deployment -> Browse Remote Host, then the pannel on the left part of Pycharm will show the directories and files under the root path you filled for connections configuration page.
+after the previous operations, the Pycharm console will show the process of uploading all the files to the remote server.
+(Actually I just found this step is being done after configure the SSH interpreter :)
+
+Select Tools -> Deployment -> Browse Remote Host, then the pannel on the left part of Pycharm will show the directories and files under the root path you filled for connections configuration page.
 <img src='./img/5.png' width=600/>
 
 4. configure project interpreter
@@ -52,5 +55,5 @@ Now, you can create a file name 'test.py' under your project directory on Pychar
 <span style="color:red;">If you want to change using another interpreter, please do the deploymemt configuration first and then set the SSH interpreter</span>
 
 One more thing!
-After configure the deployment settings, selec what you want from deployment configurations list! No need to set a new server configuration again! Pay attention! Otherwise it will occur permission deny issue during uploading the files from localhost to remote server.
+After configure the deployment settings, select what you want from deployment configurations list! No need to set a new server configuration again! Pay attention! Otherwise it will occur permission deny issue during uploading the files from localhost to remote server.
 <img src='./img/10.png' width=600/>
