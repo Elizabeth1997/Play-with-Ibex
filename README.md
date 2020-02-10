@@ -44,7 +44,7 @@ Select Tools -> Deployment -> Browse Remote Host, then the pannel on the left pa
 4. configure project interpreter
 <img src='./img/7.png' width=800/>
 
-select SSH interpreter 
+select SSH interpreter, the root + the directory you type will form the position where your project is uploaded in the remote server.
 <img src='./img/8.png' width=600/>
 
 fill the path obtained by executing command "which python"
