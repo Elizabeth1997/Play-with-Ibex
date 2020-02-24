@@ -16,6 +16,8 @@ export LD_LIBRARY_PATH=/sw/csgv/cuda/10.0.130/el7.6_binary/cuda-toolkit/lib64:$L
 gcc --version # if it's not, load one
 module av gcc
 module load gcc/version
+# write the following command to ~/.bash_profile file for letting it be found by path
+export CXX=/sw/csgv/modulefiles/compilers/gcc/6.4.0
 # 5.Create and activate an environment
 conda create -n deepgcn
 conda activate deepgcn
