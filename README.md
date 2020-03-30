@@ -57,3 +57,5 @@ Now, you can create a file name 'test.py' under your project directory on Pychar
 One more thing!
 After configure the deployment settings, select what you want from deployment configurations list! No need to set a new server configuration again! Pay attention! Otherwise it will occur permission deny issue during uploading the files from localhost to remote server.
 <img src='./img/10.png' width=600/>
+
+If you are gonna use an existing server configuration, you should check the root path first in the Tools->Deployment panel first and fill the rest of part of the directory where you plan to upload you files remotely instead of the full path!!!
