@@ -7,6 +7,8 @@ python -c "import torch; print(torch.cuda.is_available())"
 # add the commands of loading modules in the ~/.bash_profile
 module av cuda # check all the available cuda's version
 module load cuda/version # version should be the same with "torch.version.cuda"
+# if there is another version of cuda loaded already, you can use
+module unload cuda # to unload it and then load particular version of cuda you need
 which nvcc # obtain the path of nvcc, in my case, it's /sw/csgv/cuda/10.0.130/el7.6_binary/cuda-toolkit/bin/nvcc
 
 export PATH=/sw/csgv/cuda/10.0.130/el7.6_binary/cuda-toolkit/bin:$PATH
